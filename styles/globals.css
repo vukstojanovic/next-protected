@@ -13,6 +13,31 @@ a {
 
 * {
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  padding: 15px 20px;
+  background-color: gold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav div span {
+  margin-right: 10px;
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+nav h3 {
+  font-size: 25px;
+}
+
+main {
+  padding: 15px;
 }
 
 @media (prefers-color-scheme: dark) {
